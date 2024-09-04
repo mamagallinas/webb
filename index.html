@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El swing de doña dayrihana</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background-image: url('ruta/a/imagen-principal.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        .section-title {
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+        }
+        .contact-section {
+            background-color: #f8f9fa;
+            padding: 4rem 0;
+        }
+        .contact-section h2 {
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="bg-dark text-white">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">El swing de doña dayrihana</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Bienvenidos a El swing de doña dayrihana</h1>
+            <p>¡Donde cada plato es una experiencia única!</p>
+        </div>
+    </section>
+
+    
+    <section id="about" class="container text-center my-5">
+        <h2 class="section-title">Sobre Nosotros</h2>
+        <p>En El swing de doña dayrihana, nos enorgullece ofrecer platos frescos y deliciosos preparados con los mejores ingredientes. Nuestra misión es proporcionar una experiencia culinaria excepcional en un ambiente acogedor.</p>
+    </section>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Menú del Restaurante</h1>
+        <div class="row">
+            
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="E:\restaurante\img\plato1.jpg" class="card-img-top" alt="Plato 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Desayuno express</h5>
+                        <p class="card-text">Un delicioso desayuno con una mezcla de sabores únicos.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="E:\restaurante\img\plato2.jpg" class="card-img-top" alt="Plato 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Pollo</h5>
+                        <p class="card-text">Disfruta de un exquisito pollo con ingredientes frescos y una presentación impecable.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="E:\restaurante\img\plato3.jpg" class="card-img-top" alt="Plato 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Asado</h5>
+                        <p class="card-text">Un Asado sabroso y lleno de tradición que te hará querer más.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="E:\restaurante\img\plato4.jpg" class="card-img-top" alt="Plato 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Salchipapa gratinada</h5>
+                        <p class="card-text">Disfruta de una deliciosa salchipapa gratinada que combina sabores exquisitos con una presentación artística.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="E:\restaurante\img\plato5.jpg" class="card-img-top" alt="Plato 5">
+                    <div class="card-body">
+                        <h5 class="card-title">perro suizo</h5>
+                        <p class="card-text">Un sabroso perro con un sabor unico y exquisito.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="E:\restaurante\img\plato6.jpg" class="card-img-top" alt="Plato 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Mojarra</h5>
+                        <p class="card-text">Una mojarra deliciosa que te hara salivar con solo pensarla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="contact" class="contact-section text-center">
+        <div class="container">
+            <h2 class="section-title">Contáctanos</h2>
+            <p>Estamos ubicados en el corazón de la ciudad. Para reservaciones o consultas, no dudes en ponerte en contacto con nosotros.</p>
+            <p><strong>Teléfono:</strong> +57 321 654 987</p>
+            <p><strong>Email:</strong> info@Elswingdedoñadayrihana.com</p>
+        </div>
+    </section>
+
+    
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Restaurante El swing de doña dayrihana. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
